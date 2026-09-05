@@ -299,8 +299,11 @@ function setText(id, value) {
 /* =========================================
    START
 ========================================= */
+document.addEventListener("DOMContentLoaded", function () {
+  console.log("SCRIPT IS WORKING");
+  console.log("URL:", window.location.href);
+  console.log("OBJECT ID:", objectId);
 
-document.addEventListener(
-  "DOMContentLoaded",
-  loadObject
+  loadObject();
+});
 );
