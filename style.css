@@ -272,3 +272,259 @@ footer {
   }
 
 }
+
+
+
+/* =================================
+   CATEGORY PAGE
+================================= */
+
+.inner-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 25px 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.back-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.back-link:hover {
+  opacity: 0.7;
+}
+
+.language-label {
+  color: white;
+  font-size: 0.9rem;
+}
+
+
+/* CATEGORY HERO */
+
+.category-hero {
+  min-height: 70vh;
+  padding: 150px 8% 100px;
+
+  display: flex;
+  align-items: center;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(35, 25, 15, 0.9),
+      rgba(35, 25, 15, 0.55),
+      rgba(35, 25, 15, 0.25)
+    ),
+    url("images/Tui-Changshu-01.jpg") center/cover no-repeat;
+
+  color: white;
+}
+
+.category-hero-content {
+  max-width: 850px;
+}
+
+.category-hero .eyebrow {
+  margin-bottom: 20px;
+}
+
+.category-hero h1 {
+  font-family: Georgia, serif;
+  font-size: clamp(3.5rem, 7vw, 7rem);
+  line-height: 0.9;
+  margin-bottom: 20px;
+}
+
+.category-hero h2 {
+  font-family: Georgia, serif;
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.category-hero p {
+  max-width: 700px;
+  font-size: 1.05rem;
+  margin-bottom: 10px;
+}
+
+
+/* COLLECTION */
+
+.object-collection {
+  padding: 110px 8%;
+  background: #f3eadb;
+}
+
+.collection-intro {
+  max-width: 750px;
+  margin-bottom: 70px;
+}
+
+.collection-intro .eyebrow {
+  color: #9b6427;
+}
+
+.collection-intro h2 {
+  font-family: Georgia, serif;
+  font-size: clamp(2.8rem, 5vw, 5rem);
+  line-height: 1;
+  margin: 15px 0 25px;
+}
+
+.collection-intro p {
+  color: #594b3d;
+  font-size: 1.05rem;
+}
+
+
+/* OBJECT GRID */
+
+.object-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35px;
+}
+
+.object-card {
+  background: #fffaf2;
+  overflow: hidden;
+  border: 1px solid rgba(45, 36, 28, 0.12);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.object-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 45px rgba(45, 36, 28, 0.15);
+}
+
+
+/* OBJECT IMAGE */
+
+.object-image {
+  width: 100%;
+  height: 360px;
+  overflow: hidden;
+}
+
+.object-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transition: transform 0.5s ease;
+}
+
+.object-card:hover .object-image img {
+  transform: scale(1.04);
+}
+
+
+/* OBJECT INFORMATION */
+
+.object-info {
+  padding: 30px;
+  position: relative;
+}
+
+.object-number {
+  display: block;
+  margin-bottom: 15px;
+
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+
+  color: #9b6427;
+}
+
+.object-info h3 {
+  font-family: Georgia, serif;
+  font-size: 2rem;
+  line-height: 1.1;
+  margin-bottom: 5px;
+}
+
+.object-info h4 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-bottom: 20px;
+  color: #9b6427;
+}
+
+.object-info p {
+  color: #594b3d;
+  margin-bottom: 8px;
+}
+
+.object-link {
+  display: inline-block;
+  margin-top: 18px;
+
+  color: #2d241c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.object-link:hover {
+  color: #9b6427;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 800px) {
+
+  .object-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .category-hero {
+    min-height: 80vh;
+  }
+
+  .object-image {
+    height: 300px;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .inner-header {
+    padding: 20px 25px;
+  }
+
+  .category-hero {
+    padding: 130px 25px 70px;
+  }
+
+  .category-hero h1 {
+    font-size: 3.5rem;
+  }
+
+  .category-hero h2 {
+    font-size: 1.5rem;
+  }
+
+  .object-collection {
+    padding: 80px 25px;
+  }
+
+  .object-info {
+    padding: 25px;
+  }
+
+}
