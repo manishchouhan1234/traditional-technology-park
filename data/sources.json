@@ -1,1 +1,79 @@
-
+[
+  {
+    "id": "SRC-001",
+    "type": "institutional",
+    "organization": "Indira Gandhi Rashtriya Manav Sangrahalaya (IGRMS)",
+    "title": "Traditional Technology Park",
+    "description": {
+      "en": "Primary institutional source for the Traditional Technology Park and its exhibits.",
+      "hi": "पारंपरिक प्रौद्योगिकी पार्क और इसके प्रदर्शों के लिए प्राथमिक संस्थागत स्रोत।"
+    },
+    "url": "https://igrms.gov.in/"
+  },
+  {
+    "id": "SRC-002",
+    "type": "institutional",
+    "organization": "Indira Gandhi Rashtriya Manav Sangrahalaya (IGRMS)",
+    "title": "IGRMS Annual Reports",
+    "description": {
+      "en": "Annual reports documenting the development, exhibits and activities of the Traditional Technology Park.",
+      "hi": "पारंपरिक प्रौद्योगिकी पार्क के विकास, प्रदर्शों और गतिविधियों का दस्तावेजीकरण करने वाली वार्षिक रिपोर्टें।"
+    },
+    "url": "https://igrms.gov.in/"
+  },
+  {
+    "id": "SRC-003",
+    "type": "institutional",
+    "organization": "D'Source / IDC, IIT Bombay",
+    "title": "Traditional Technology at Manav Sangrahalaya",
+    "description": {
+      "en": "Documentation of traditional tools and machines exhibited at Manav Sangrahalaya.",
+      "hi": "मानव संग्रहालय में प्रदर्शित पारंपरिक उपकरणों और मशीनों का दस्तावेजीकरण।"
+    },
+    "url": "https://www.dsource.in/resource/traditional-technology-manav-sangrahalaya"
+  },
+  {
+    "id": "SRC-004",
+    "type": "academic",
+    "organization": "Indian Council of Agricultural Research (ICAR)",
+    "title": "Traditional Wisdom of Mallah Community regarding Makhana Production and Processing in North Bihar",
+    "description": {
+      "en": "Research documenting traditional knowledge and processing practices of the Mallah community related to makhana.",
+      "hi": "मखाना उत्पादन और प्रसंस्करण से संबंधित मल्लाह समुदाय के पारंपरिक ज्ञान और प्रथाओं का शोध।"
+    },
+    "url": "https://epubs.icar.org.in/"
+  },
+  {
+    "id": "SRC-005",
+    "type": "academic",
+    "organization": "Census of India",
+    "title": "Census documentation relating to traditional communities and crafts",
+    "description": {
+      "en": "Historical census documentation used for contextual research on traditional communities and crafts.",
+      "hi": "पारंपरिक समुदायों और शिल्प के संदर्भ संबंधी शोध के लिए ऐतिहासिक जनगणना दस्तावेज।"
+    },
+    "url": "https://censusindia.gov.in/"
+  },
+  {
+    "id": "SRC-006",
+    "type": "academic",
+    "organization": "IGNOU",
+    "title": "Traditional and historical technology documentation",
+    "description": {
+      "en": "Educational and historical material used as supporting research for traditional technologies.",
+      "hi": "पारंपरिक तकनीकों के सहायक शोध के लिए शैक्षिक और ऐतिहासिक सामग्री।"
+    },
+    "url": "https://www.ignou.ac.in/"
+  },
+  {
+    "id": "SRC-007",
+    "type": "institutional",
+    "organization": "Ministry of Culture, Government of India",
+    "title": "Institutional documentation related to IGRMS",
+    "description": {
+      "en": "Government documentation used to support information about IGRMS and its Traditional Technology exhibits.",
+      "hi": "IGRMS और उसके पारंपरिक प्रौद्योगिकी प्रदर्शों से संबंधित जानकारी के लिए सरकारी दस्तावेज।"
+    },
+    "url": "https://www.indiaculture.gov.in/"
+  }
+]
