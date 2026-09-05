@@ -3,7 +3,11 @@
     "id": "TTP-001",
     "name": {
       "en": "Yuothung-Yotsha",
-      "hi": "युओथुंग-योत्शा"
+      "hi": "योटशुंग-योटशा"
+    },
+    "description": {
+      "en": "Iron Smelting Technique",
+      "hi": "लौह गलाने की तकनीक"
     },
     "category": "iron-metal",
     "community": "Meitei",
@@ -11,10 +15,6 @@
       "village": "Kakching",
       "district": "Thoubal",
       "state": "Manipur"
-    },
-    "technology": {
-      "en": "Traditional Iron Smelting",
-      "hi": "पारंपरिक लौह गलाने की तकनीक"
     }
   },
   {
@@ -23,16 +23,16 @@
       "en": "Oo-Chakri",
       "hi": "ऊ-चक्रि"
     },
+    "description": {
+      "en": "Traditional Wooden Rice Grinder",
+      "hi": "पारंपरिक लकड़ी का चावल पीसने का उपकरण"
+    },
     "category": "food-oil",
     "community": "Meitei",
     "location": {
       "village": "Kakching",
       "district": "Thoubal",
       "state": "Manipur"
-    },
-    "technology": {
-      "en": "Traditional Wooden Grinder",
-      "hi": "पारंपरिक लकड़ी की पीसने की तकनीक"
     }
   },
   {
@@ -41,16 +41,394 @@
       "en": "Chu-Kolhu",
       "hi": "चु-कोल्हु"
     },
+    "description": {
+      "en": "Traditional Sugarcane Crusher",
+      "hi": "पारंपरिक गन्ना पेराई उपकरण"
+    },
     "category": "food-oil",
     "community": "Meitei",
     "location": {
       "village": "Kakching",
       "district": "Thoubal",
       "state": "Manipur"
+    }
+  },
+  {
+    "id": "TTP-004",
+    "name": {
+      "en": "Tanyeishang",
+      "hi": "तान्येइशांग"
     },
-    "technology": {
+    "description": {
+      "en": "Time Measuring Device",
+      "hi": "समय मापन उपकरण"
+    },
+    "category": "salt-measurement",
+    "community": "Meitei",
+    "location": {
+      "village": "Lamshang",
+      "district": "West Imphal",
+      "state": "Manipur"
+    }
+  },
+  {
+    "id": "TTP-005",
+    "name": {
+      "en": "Sunnapu Bhatti",
+      "hi": "सुन्नपु भट्टी"
+    },
+    "description": {
+      "en": "Lime Making Earthen Furnace",
+      "hi": "चूना बनाने की मिट्टी की भट्ठी"
+    },
+    "category": "lime-construction",
+    "community": "Nagavamsham",
+    "location": {
+      "village": "Saluru",
+      "district": "Vizianagaram",
+      "state": "Andhra Pradesh"
+    }
+  },
+  {
+    "id": "TTP-006",
+    "name": {
+      "en": "Eddulumota",
+      "hi": "एडुलुमोटा"
+    },
+    "description": {
+      "en": "Traditional Water Lifting System",
+      "hi": "पारंपरिक जल उठाने की प्रणाली"
+    },
+    "category": "water-irrigation",
+    "community": "Folk",
+    "location": {
+      "village": "Chintalapeta",
+      "district": "Vizianagaram",
+      "state": "Andhra Pradesh"
+    }
+  },
+  {
+    "id": "TTP-007",
+    "name": {
+      "en": "Sunnapuganagu",
+      "hi": "सुन्नपुगानागु"
+    },
+    "description": {
+      "en": "Traditional Lime-Mortar Making Device",
+      "hi": "पारंपरिक चूना-मोर्टार बनाने का उपकरण"
+    },
+    "category": "lime-construction",
+    "community": "Folk",
+    "location": {
+      "village": "Vompilli",
+      "district": "Vizianagaram",
+      "state": "Andhra Pradesh"
+    }
+  },
+  {
+    "id": "TTP-008",
+    "name": {
+      "en": "Tui-Changshu",
+      "hi": "तुई चांगशु"
+    },
+    "description": {
+      "en": "Water-Operated Pounding and Husking Lever",
+      "hi": "जल-संचालित कूटने और धान कूटने की लीवर प्रणाली"
+    },
+    "category": "agriculture-grain",
+    "community": "Kuki",
+    "location": {
+      "village": "Haipi",
+      "district": "Kangpokpi",
+      "state": "Manipur"
+    }
+  },
+  {
+    "id": "TTP-009",
+    "name": {
+      "en": "Dhenki",
+      "hi": "ढेंकी"
+    },
+    "description": {
+      "en": "Traditional Husking Lever",
+      "hi": "पारंपरिक धान कूटने की लीवर प्रणाली"
+    },
+    "category": "agriculture-grain",
+    "community": "Rajwar",
+    "location": {
+      "village": null,
+      "district": "Sarguja",
+      "state": "Chhattisgarh"
+    }
+  },
+  {
+    "id": "TTP-010",
+    "name": {
+      "en": "Rahat",
+      "hi": "रहट"
+    },
+    "description": {
+      "en": "Traditional Irrigation Equipment",
+      "hi": "पारंपरिक सिंचाई उपकरण"
+    },
+    "category": "water-irrigation",
+    "community": "Folk",
+    "location": {
+      "village": null,
+      "district": "Bhind",
+      "state": "Madhya Pradesh"
+    }
+  },
+  {
+    "id": "TTP-011",
+    "name": {
+      "en": "Mand",
+      "hi": "मंड"
+    },
+    "description": {
+      "en": "Traditional Fermentation and Distillation Technique",
+      "hi": "पारंपरिक किण्वन एवं आसवन तकनीक"
+    },
+    "category": "fermentation-distillation",
+    "community": "Baiga Tribe",
+    "location": {
+      "village": "Baiga Chak",
+      "district": "Dindori",
+      "state": "Madhya Pradesh"
+    }
+  },
+  {
+    "id": "TTP-012",
+    "name": {
+      "en": "Bhathi",
+      "hi": "भट्ठी"
+    },
+    "description": {
+      "en": "Traditional Bellows",
+      "hi": "पारंपरिक धौंकनी"
+    },
+    "category": "iron-metal",
+    "community": "Thakur (Lohar)",
+    "location": {
+      "village": null,
+      "district": "Madhubani",
+      "state": "Bihar"
+    }
+  },
+  {
+    "id": "TTP-013",
+    "name": {
+      "en": "Ganna Charkhi",
+      "hi": "गन्ना चरखी"
+    },
+    "description": {
+      "en": "Traditional Sugarcane Juice Extractor",
+      "hi": "पारंपरिक गन्ने का रस निकालने का उपकरण"
+    },
+    "category": "food-oil",
+    "community": "Folk",
+    "location": {
+      "village": "Chitrakoot",
+      "district": "Bastar",
+      "state": "Chhattisgarh"
+    }
+  },
+  {
+    "id": "TTP-014",
+    "name": {
+      "en": "Dhan Jharai Kal",
+      "hi": "धान झराई कल"
+    },
+    "description": {
+      "en": "Paddy Threshing Machine",
+      "hi": "धान मड़ाई मशीन"
+    },
+    "category": "agriculture-grain",
+    "community": "Folk",
+    "location": {
+      "village": "Aarampur",
+      "district": "South 24 Parganas",
+      "state": "West Bengal"
+    }
+  },
+  {
+    "id": "TTP-015",
+    "name": {
+      "en": "Makhana Processing Technique",
+      "hi": "मखाना बनाने की प्रक्रिया"
+    },
+    "description": {
+      "en": "Traditional Makhana Processing",
+      "hi": "पारंपरिक मखाना प्रसंस्करण"
+    },
+    "category": "food-oil",
+    "community": "Mallah",
+    "location": {
+      "village": "Nabtol",
+      "district": "Madhubani",
+      "state": "Bihar"
+    }
+  },
+  {
+    "id": "TTP-016",
+    "name": {
+      "en": "Nurupuraee",
+      "hi": "नुरुपुराए"
+    },
+    "description": {
+      "en": "Paddy Thresher",
+      "hi": "धान मड़ाई उपकरण"
+    },
+    "category": "agriculture-grain",
+    "community": "Folk",
+    "location": {
+      "village": null,
+      "district": "Vizianagaram",
+      "state": "Andhra Pradesh"
+    }
+  },
+  {
+    "id": "TTP-017",
+    "name": {
+      "en": "Dhokra Craft",
+      "hi": "ढोकरा"
+    },
+    "description": {
+      "en": "Lost-Wax Casting",
+      "hi": "लॉस्ट-वैक्स ढलाई"
+    },
+    "category": "craft-casting",
+    "community": "Panga Kandha",
+    "location": {
+      "village": null,
+      "district": "Rayagada",
+      "state": "Odisha"
+    }
+  },
+  {
+    "id": "TTP-018",
+    "name": {
+      "en": "Dhokra Craft",
+      "hi": "ढोकरा"
+    },
+    "description": {
+      "en": "Lost-Wax Casting",
+      "hi": "लॉस्ट-वैक्स ढलाई"
+    },
+    "category": "craft-casting",
+    "community": "Karmakar",
+    "location": {
+      "village": null,
+      "district": "Bankura",
+      "state": "West Bengal"
+    }
+  },
+  {
+    "id": "TTP-019",
+    "name": {
+      "en": "Kuhiyar Pera Shal",
+      "hi": "कुहियार पेरा शाल"
+    },
+    "description": {
       "en": "Traditional Sugarcane Crusher",
-      "hi": "पारंपरिक गन्ना पेराई तकनीक"
+      "hi": "पारंपरिक गन्ना पेराई उपकरण"
+    },
+    "category": "food-oil",
+    "community": "Assamese",
+    "location": {
+      "village": "Baliputa",
+      "district": "Darrang",
+      "state": "Assam"
+    }
+  },
+  {
+    "id": "TTP-020",
+    "name": {
+      "en": "Ganugu",
+      "hi": "गानुगु"
+    },
+    "description": {
+      "en": "Traditional Oil Press",
+      "hi": "पारंपरिक तेल निकालने का उपकरण"
+    },
+    "category": "food-oil",
+    "community": "Telukula",
+    "location": {
+      "village": "Alajingi",
+      "district": "Vizianagaram",
+      "state": "Andhra Pradesh"
+    }
+  },
+  {
+    "id": "TTP-021",
+    "name": {
+      "en": "Meitei-Thumsung-Shang",
+      "hi": "मैतेई-थुमसुंग-शांग"
+    },
+    "description": {
+      "en": "Traditional Salt Making Technique",
+      "hi": "पारंपरिक नमक बनाने की तकनीक"
+    },
+    "category": "salt-measurement",
+    "community": "Meitei",
+    "location": {
+      "village": null,
+      "district": "Thoubal",
+      "state": "Manipur"
+    }
+  },
+  {
+    "id": "TTP-022",
+    "name": {
+      "en": "Medhhath Kuthithi",
+      "hi": "मेधथाथ कुट्ठी"
+    },
+    "description": {
+      "en": "Traditional Iron Extracting Furnace",
+      "hi": "पारंपरिक लौह निष्कर्षण भट्ठी"
+    },
+    "category": "iron-metal",
+    "community": "Birjiya Tribe",
+    "location": {
+      "village": "Vishunpur (Hanup Path)",
+      "district": "Gumla",
+      "state": "Jharkhand"
+    }
+  },
+  {
+    "id": "TTP-023",
+    "name": {
+      "en": "Hidak Shungpham",
+      "hi": "हिदक शुंगफम"
+    },
+    "description": {
+      "en": "Device for Distilling Local Brew",
+      "hi": "स्थानीय पेय के आसवन का उपकरण"
+    },
+    "category": "fermentation-distillation",
+    "community": "Meitei",
+    "location": {
+      "village": "Andro",
+      "district": "East Imphal",
+      "state": "Manipur"
+    }
+  },
+  {
+    "id": "TTP-024",
+    "name": {
+      "en": "Ganna Charakh",
+      "hi": "गन्ना चरख"
+    },
+    "description": {
+      "en": "Traditional Sugarcane Crusher",
+      "hi": "पारंपरिक गन्ना पेराई उपकरण"
+    },
+    "category": "food-oil",
+    "community": "Maratha",
+    "location": {
+      "village": "Umargaon",
+      "district": "Ahmadnagar",
+      "state": "Maharashtra"
     }
   }
 ]
