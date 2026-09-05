@@ -34,5 +34,23 @@
       "en": "Traditional Wooden Grinder",
       "hi": "पारंपरिक लकड़ी की पीसने की तकनीक"
     }
+  },
+  {
+    "id": "TTP-003",
+    "name": {
+      "en": "Chu-Kolhu",
+      "hi": "चु-कोल्हु"
+    },
+    "category": "food-oil",
+    "community": "Meitei",
+    "location": {
+      "village": "Kakching",
+      "district": "Thoubal",
+      "state": "Manipur"
+    },
+    "technology": {
+      "en": "Traditional Sugarcane Crusher",
+      "hi": "पारंपरिक गन्ना पेराई तकनीक"
+    }
   }
 ]
