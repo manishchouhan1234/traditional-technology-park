@@ -12,7 +12,7 @@ const exhibits = {
     category: "Agriculture & Irrigation",
     categoryHindi: "कृषि एवं सिंचाई",
 
-    image: "../images/Rahat-01.jpg.jpeg",
+    image: "../images/Rahat-01.jpg.png",
 
     short:
       "Traditional equipment used for lifting water for irrigation.",
