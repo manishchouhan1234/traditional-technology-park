@@ -55,7 +55,7 @@ header p {
       rgba(25, 18, 10, 0.45),
       rgba(25, 18, 10, 0.15)
     ),
-    url("images/entrance-01.jpg") center/cover no-repeat;
+    url("images/entrance-01.jpg.jpeg") center/cover no-repeat;
 }
 
 .hero-content {
