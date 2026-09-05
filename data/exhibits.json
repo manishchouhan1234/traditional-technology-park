@@ -16,5 +16,23 @@
       "en": "Traditional Iron Smelting",
       "hi": "पारंपरिक लौह गलाने की तकनीक"
     }
+  },
+  {
+    "id": "TTP-002",
+    "name": {
+      "en": "Oo-Chakri",
+      "hi": "ऊ-चक्रि"
+    },
+    "category": "food-oil",
+    "community": "Meitei",
+    "location": {
+      "village": "Kakching",
+      "district": "Thoubal",
+      "state": "Manipur"
+    },
+    "technology": {
+      "en": "Traditional Wooden Grinder",
+      "hi": "पारंपरिक लकड़ी की पीसने की तकनीक"
+    }
   }
 ]
