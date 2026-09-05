@@ -1,0 +1,66 @@
+[
+  {
+    "id": "iron-metal",
+    "name": {
+      "en": "Iron & Metal Technologies",
+      "hi": "लौह एवं धातु प्रौद्योगिकी"
+    },
+    "icon": "⚒️"
+  },
+  {
+    "id": "agriculture-grain",
+    "name": {
+      "en": "Agriculture & Grain Processing",
+      "hi": "कृषि एवं अनाज प्रसंस्करण"
+    },
+    "icon": "🌾"
+  },
+  {
+    "id": "food-oil",
+    "name": {
+      "en": "Food & Oil Processing",
+      "hi": "खाद्य एवं तेल प्रसंस्करण"
+    },
+    "icon": "🌿"
+  },
+  {
+    "id": "water-irrigation",
+    "name": {
+      "en": "Water & Irrigation",
+      "hi": "जल एवं सिंचाई तकनीक"
+    },
+    "icon": "💧"
+  },
+  {
+    "id": "lime-construction",
+    "name": {
+      "en": "Lime & Construction",
+      "hi": "चूना एवं निर्माण तकनीक"
+    },
+    "icon": "🔥"
+  },
+  {
+    "id": "fermentation-distillation",
+    "name": {
+      "en": "Fermentation & Distillation",
+      "hi": "किण्वन एवं आसवन तकनीक"
+    },
+    "icon": "🍶"
+  },
+  {
+    "id": "craft-casting",
+    "name": {
+      "en": "Traditional Craft & Casting",
+      "hi": "पारम्परिक शिल्प एवं ढलाई"
+    },
+    "icon": "🪙"
+  },
+  {
+    "id": "salt-measurement",
+    "name": {
+      "en": "Salt & Measurement Technologies",
+      "hi": "नमक एवं मापन तकनीक"
+    },
+    "icon": "🧂"
+  }
+]
