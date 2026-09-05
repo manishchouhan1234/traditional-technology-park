@@ -1,1 +1,20 @@
-
+[
+  {
+    "id": "TTP-001",
+    "name": {
+      "en": "Yuothung-Yotsha",
+      "hi": "युओथुंग-योत्शा"
+    },
+    "category": "iron-metal",
+    "community": "Meitei",
+    "location": {
+      "village": "Kakching",
+      "district": "Thoubal",
+      "state": "Manipur"
+    },
+    "technology": {
+      "en": "Traditional Iron Smelting",
+      "hi": "पारंपरिक लौह गलाने की तकनीक"
+    }
+  }
+]
