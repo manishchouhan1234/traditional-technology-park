@@ -71,8 +71,22 @@ const exhibits = {
 ========================================= */
 
 const params = new URLSearchParams(window.location.search);
-
 const objectId = params.get("id");
+
+
+/* =========================================
+   SAFE TEXT FUNCTION
+========================================= */
+
+function setText(id, value) {
+
+  const element = document.getElementById(id);
+
+  if (element) {
+    element.textContent = value || "";
+  }
+
+}
 
 
 /* =========================================
@@ -81,7 +95,13 @@ const objectId = params.get("id");
 
 function loadObject() {
 
-  if (!objectId || !exhibits[objectId]) {
+  console.log("Loading object:", objectId);
+
+  const object = exhibits[objectId];
+
+  /* OBJECT NOT FOUND */
+
+  if (!object) {
 
     document.title =
       "Object Not Found | Traditional Technology Park";
@@ -119,9 +139,6 @@ function loadObject() {
   }
 
 
-  const object = exhibits[objectId];
-
-
   /* PAGE TITLE */
 
   document.title =
@@ -136,7 +153,6 @@ function loadObject() {
   if (image) {
 
     image.src = object.image;
-
     image.alt = object.name;
 
   }
@@ -278,32 +294,18 @@ function loadObject() {
 
 
 /* =========================================
-   SAFE TEXT FUNCTION
-========================================= */
-
-function setText(id, value) {
-
-  const element =
-    document.getElementById(id);
-
-  if (element) {
-
-    element.textContent =
-      value || "";
-
-  }
-
-}
-
-
-/* =========================================
    START
 ========================================= */
-document.addEventListener("DOMContentLoaded", function () {
-  console.log("SCRIPT IS WORKING");
-  console.log("URL:", window.location.href);
-  console.log("OBJECT ID:", objectId);
 
-  loadObject();
-});
+document.addEventListener(
+  "DOMContentLoaded",
+  function () {
 
+    console.log("SCRIPT IS WORKING");
+    console.log("URL:", window.location.href);
+    console.log("OBJECT ID:", objectId);
+
+    loadObject();
+
+  }
+);
